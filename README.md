@@ -1,3 +1,4 @@
+<img width="1536" height="1024" alt="AWS CLOUD SEC MONITORING ARCHITECTURE" src="https://github.com/user-attachments/assets/38834af1-bca3-4fd3-af4c-b50a2b60999b" />
 <img width="1920" height="1140" alt="Screenshot 2026-06-16 152743" src="https://github.com/user-attachments/assets/889f6222-347a-4d2b-b819-08ec1de41239" />
 <img width="1920" height="1140" alt="Screenshot 2026-06-16 152723" src="https://github.com/user-attachments/assets/7c98ef4e-0623-4930-b4ec-7c15fbe222b5" />
 <img width="1920" height="1140" alt="Screenshot 2026-06-16 152608" src="https://github.com/user-attachments/assets/dff9c39e-b788-4908-8a5c-3469c137a360" />
