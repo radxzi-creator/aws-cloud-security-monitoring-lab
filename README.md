@@ -36,8 +36,67 @@ When a security event occurs, an automated alert is triggered via email in near 
 What I Learned
 
 Cloud security monitoring fundamentals
+
+
+
 IAM event tracking and auditing
 CloudWatch metric filters and alarms
 Event-driven security architecture in AWS
 SOC-style alerting workflows
 
+
+STep 2
+
+<img width="1920" height="1140" alt="Screenshot 2026-06-18 142115" src="https://github.com/user-attachments/assets/dff461ba-cd9c-4ebd-acc2-f300b45052e8" />
+<img width="1536" height="1024" alt="ChatGPT Image Jun 18, 2026, 02_24_47 PM" src="https://github.com/user-attachments/assets/1865bae2-f284-41cb-a1f4-b003b5c42aef" />
+
+## 🔐 Cloud Security Monitoring Lab (Real-Time Detection)
+
+This project builds a real-time cloud security monitoring system using AWS services to detect and alert on suspicious IAM and console activity.
+
+### 🧠 What I built
+
+I configured a CloudTrail + CloudWatch Logs security pipeline that detects high-risk actions in an AWS account, including:
+
+- Root user console logins
+- IAM user creation and deletion
+- Policy attachment and privilege changes
+- Suspicious administrative activity
+
+---
+
+### 🏗️ Architecture
+
+![AWS Security Architecture](a_clean_infographic_architecture_diagram_on_a_wh.png)
+
+---
+
+### ⚙️ AWS Services Used
+
+- AWS CloudTrail (event logging)
+- Amazon CloudWatch Logs (central log storage)
+- CloudWatch Metric Filters (pattern detection)
+- CloudWatch Alarms (real-time alerting)
+- IAM (security event source)
+
+---
+
+### 🚨 Detection Rules
+
+- Root Console Login → triggers security alert
+- IAM changes (Create/Delete/Attach Policy) → triggers IAM security alarm
+- Pattern-based log filtering using CloudWatch Insights
+
+---
+
+### 📊 Outcome
+
+- Real-time detection of privileged account activity
+- Security monitoring foundation similar to SOC environments
+- Automated alerting capability for suspicious behavior
+
+---
+
+### 🔥 Skills Demonstrated
+
+Cloud Security • AWS IAM • Logging & Monitoring • Threat Detection • SIEM-style thinking • Security Automation
