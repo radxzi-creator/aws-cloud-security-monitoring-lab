@@ -61,11 +61,6 @@ I configured a CloudTrail + CloudWatch Logs security pipeline that detects high-
 - Policy attachment and privilege changes
 - Suspicious administrative activity
 
----
-
-### 🏗️ Architecture
-
-![AWS Security Architecture](a_clean_infographic_architecture_diagram_on_a_wh.png)
 
 ---
 
