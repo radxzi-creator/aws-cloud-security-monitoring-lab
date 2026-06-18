@@ -41,14 +41,7 @@ Logs are sent to CloudWatch Logs
 Metric filters scan logs for suspicious IAM patterns
 CloudWatch Alarms trigger when conditions are met
 SNS sends real-time email alerts
-🖼️ Screenshots
 
-Add your AWS console evidence here:
-
-CloudTrail event logs
-CloudWatch metric filter rules
-Alarm state changes
-SNS email alert example
 🧠 What I Learned
 Cloud security monitoring fundamentals
 IAM event tracking and auditing
