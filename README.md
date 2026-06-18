@@ -6,90 +6,56 @@
 <img width="1920" height="1140" alt="Screenshot 2026-06-16 152523" src="https://github.com/user-attachments/assets/a00de144-9fcc-44a6-b565-e130f9914894" />
 <img width="1920" height="1140" alt="Screenshot 2026-06-16 152406" src="https://github.com/user-attachments/assets/1fb3f937-1041-4263-b38a-e328beaddc50" />
 <img width="1522" height="1140" alt="Screenshot 2026-06-16 152926 1" src="https://github.com/user-attachments/assets/5f08f788-9313-4420-9bff-731d02c8143d" />
-AWS Cloud Security Monitoring Lab
+🔐 NOW YOUR POLISHED README.md (COPY THIS)
+🔐 AWS Cloud Security Monitoring System (SOC Detection Pipeline)
+📌 Overview
 
-Overview
+This project demonstrates a real-time cloud security monitoring system built on AWS that detects high-risk IAM and account activity and triggers automated security alerts.
 
-This project demonstrates a cloud security monitoring system built on AWS that detects IAM activity and triggers real-time alerts using an event-driven architecture.
+The system simulates a lightweight SOC (Security Operations Center) monitoring pipeline using an event-driven AWS architecture.
 
-IAM → CloudTrail → CloudWatch Logs → Metric Filter → CloudWatch Alarm → SNS Email Notification
-
-AWS Services Used
-
+🧱 Architecture
+CloudTrail → CloudWatch Logs → Metric Filters → CloudWatch Alarms → SNS Email Notifications
+⚙️ AWS Services Used
 AWS IAM (Identity and Access Management)
 AWS CloudTrail (Audit logging)
-Amazon CloudWatch (Metrics, Logs, Alarms)
+Amazon CloudWatch Logs (Centralised log storage)
+CloudWatch Metric Filters (Event pattern detection)
+CloudWatch Alarms (Real-time alerting)
 Amazon SNS (Email notifications)
+🚨 Security Detections
 
-Security Detection
+This system detects and alerts on:
 
-The system detects IAM events such as:
+Root account console login activity
+IAM user creation and deletion
+IAM role modifications
+Policy attachment and privilege escalation events
+📊 How It Works
+AWS CloudTrail logs all account activity
+Logs are sent to CloudWatch Logs
+Metric filters scan logs for suspicious IAM patterns
+CloudWatch Alarms trigger when conditions are met
+SNS sends real-time email alerts
+🖼️ Screenshots
 
-User creation
-Role changes
-Policy modifications
+Add your AWS console evidence here:
 
-When a security event occurs, an automated alert is triggered via email in near real-time.
-
-What I Learned
-
+CloudTrail event logs
+CloudWatch metric filter rules
+Alarm state changes
+SNS email alert example
+🧠 What I Learned
 Cloud security monitoring fundamentals
-
-
-
 IAM event tracking and auditing
-CloudWatch metric filters and alarms
+CloudWatch log analysis and metric filters
 Event-driven security architecture in AWS
-SOC-style alerting workflows
+SOC-style alerting and detection workflows
+🚀 Future Improvements
+Add anomaly-based detection (beyond rule-based alerts)
+Extend to multi-account AWS environments
+Integrate with SIEM tools (Splunk / Microsoft Sentinel)
+Add automated incident response (Lambda-based actions)
+🔗 Project Purpose
 
-
-STep 2
-
-<img width="1920" height="1140" alt="Screenshot 2026-06-18 142115" src="https://github.com/user-attachments/assets/dff461ba-cd9c-4ebd-acc2-f300b45052e8" />
-<img width="1536" height="1024" alt="ChatGPT Image Jun 18, 2026, 02_24_47 PM" src="https://github.com/user-attachments/assets/1865bae2-f284-41cb-a1f4-b003b5c42aef" />
-
-## 🔐 Cloud Security Monitoring Lab (Real-Time Detection)
-
-This project builds a real-time cloud security monitoring system using AWS services to detect and alert on suspicious IAM and console activity.
-
-### 🧠 What I built
-
-I configured a CloudTrail + CloudWatch Logs security pipeline that detects high-risk actions in an AWS account, including:
-
-- Root user console logins
-- IAM user creation and deletion
-- Policy attachment and privilege changes
-- Suspicious administrative activity
-
-
----
-
-### ⚙️ AWS Services Used
-
-- AWS CloudTrail (event logging)
-- Amazon CloudWatch Logs (central log storage)
-- CloudWatch Metric Filters (pattern detection)
-- CloudWatch Alarms (real-time alerting)
-- IAM (security event source)
-
----
-
-### 🚨 Detection Rules
-
-- Root Console Login → triggers security alert
-- IAM changes (Create/Delete/Attach Policy) → triggers IAM security alarm
-- Pattern-based log filtering using CloudWatch Insights
-
----
-
-### 📊 Outcome
-
-- Real-time detection of privileged account activity
-- Security monitoring foundation similar to SOC environments
-- Automated alerting capability for suspicious behavior
-
----
-
-### 🔥 Skills Demonstrated
-
-Cloud Security • AWS IAM • Logging & Monitoring • Threat Detection • SIEM-style thinking • Security Automation
+This project was built to simulate how real-world cloud security teams monitor and detect suspicious activity in AWS environments using native security tools.
