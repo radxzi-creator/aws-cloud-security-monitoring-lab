@@ -5,8 +5,9 @@
 <img width="1920" height="1140" alt="Screenshot 2026-06-16 152538" src="https://github.com/user-attachments/assets/8a7fa5c4-ac73-4b04-b1a4-fe729c0a578f" />
 <img width="1920" height="1140" alt="Screenshot 2026-06-16 152523" src="https://github.com/user-attachments/assets/a00de144-9fcc-44a6-b565-e130f9914894" />
 <img width="1920" height="1140" alt="Screenshot 2026-06-16 152406" src="https://github.com/user-attachments/assets/1fb3f937-1041-4263-b38a-e328beaddc50" />
-<img width="1522" height="1140" alt="Screenshot 2026-06-16 152926 1" src="https://github.com/user-attachments/assets/5f08f788-9313-4420-9bff-731d02c8143d" />
-🔐 NOW YOUR POLISHED README.md (COPY THIS)
+<img width="1522" height="1140" alt="Screenshot 2026-06-16 152926 1" src="https://github.com/user-attachments/assets/5f08f788-9313-4420-9bff-731d02c8143d" /><img width="1920" height="1140" alt="Screenshot 2026-06-18 142115" src="https://github.com/user-attachments/assets/a2f38662-2a71-46a8-b45b-a169efb23056" />
+<img width="1536" height="1024" alt="ChatGPT Image Jun 18, 2026, 02_24_47 PM" src="https://github.com/user-attachments/assets/22c79813-c3e3-4b9b-819a-8eb2461fe120" />
+
 🔐 AWS Cloud Security Monitoring System (SOC Detection Pipeline)
 📌 Overview
 
