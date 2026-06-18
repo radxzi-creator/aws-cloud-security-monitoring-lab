@@ -17,13 +17,16 @@ The system simulates a lightweight SOC (Security Operations Center) monitoring p
 
 🧱 Architecture
 CloudTrail → CloudWatch Logs → Metric Filters → CloudWatch Alarms → SNS Email Notifications
+
 ⚙️ AWS Services Used
+
 AWS IAM (Identity and Access Management)
 AWS CloudTrail (Audit logging)
 Amazon CloudWatch Logs (Centralised log storage)
 CloudWatch Metric Filters (Event pattern detection)
 CloudWatch Alarms (Real-time alerting)
 Amazon SNS (Email notifications)
+
 🚨 Security Detections
 
 This system detects and alerts on:
