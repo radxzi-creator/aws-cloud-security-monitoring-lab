@@ -12,8 +12,6 @@ Overview
 
 This project demonstrates a cloud security monitoring system built on AWS that detects IAM activity and triggers real-time alerts using an event-driven architecture.
 
-Architecture
-
 IAM → CloudTrail → CloudWatch Logs → Metric Filter → CloudWatch Alarm → SNS Email Notification
 
 AWS Services Used
